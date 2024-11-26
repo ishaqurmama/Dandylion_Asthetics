@@ -1,0 +1,31 @@
+.navbar navbar-expand-lg navbar-dark fixed-top {
+    background-color: transparent !important; /* Kein Hintergrund */
+    backdrop-filter: blur(5px); /* Optional: Weichzeichner für Glas-Effekt */
+}
+
+.header {
+    /*height: 400px; /* Höhe des Headers */
+    background-image: url('images/header.gif'); /* Dein Bild hier */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Textfarbe */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dunkles Overlay für bessere Lesbarkeit */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header-overlay {
+    z-index: 1; /* Über dem Overlay anzeigen */
+    position: relative;
+}
